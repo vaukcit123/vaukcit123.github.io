@@ -1,0 +1,467 @@
+
+</script>
+<title>CodePen - Text Animation: Filmes e Tv</title>
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 20.5em 'Montserrat';
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<svg viewBox="0 0 960 300">
+<symbol id="s-text">
+<text text-anchor="middle" x="50%" y="80%">Musica</text>
+</symbol>
+<g class="g-ants">
+<use xlink:href="#s-text" class="text-copy"></use>
+<use xlink:href="#s-text" class="text-copy"></use>
+<use xlink:href="#s-text" class="text-copy"></use>
+<use xlink:href="#s-text" class="text-copy"></use>
+<use xlink:href="#s-text" class="text-copy"></use>
+</g>
+</svg>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-30d18ea41045577cdb11c797602d08e0b9c2fa407c8b81058b1c422053ad8041.js"></script>
+<script id="rendered-js">
+/* This Pen is best viewable in Google Chrome.
+ */
+//# sourceURL=pen.js
+    </script>
+
+
+
+
+
+<title>MÚSICA</title>
+     <link rel="stylesheet prefetch" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic">
+<link rel="stylesheet prefetch" href="//fonts.googleapis.com/css?family=Tauri|Playfair+Display:400,400italic|Playfair+Display+SC&amp;subset=latin,latin-ext">
+
+    
+    
+    
+        <style data-eqcss-read="true">
+                  *,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+html {
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+header {
+  padding: 1em;
+  background: -webkit-linear-gradient(270deg, #cc0000, #660000);
+  background: linear-gradient(180deg, #cc0000, #660000);
+}
+header h1 {
+  margin: 0;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+  text-shadow: 0 2px 2px black;
+}
+article {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1em;
+}
+article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10pt;
+  color: #555;
+}
+[data-best-picture] h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  font-style: smallcaps;
+  text-align: center;
+  background: -webkit-linear-gradient(270deg, #333, #111);
+  background: linear-gradient(180deg, #333, #111);
+  color: white;
+  padding: 1rem;
+}
+aside[data-best-picture] h1 {
+  background: linear-gradient(180deg, #333, #111);
+  color: white;
+}
+[data-best-picture] ol {
+  list-stlye: none;
+  padding: 0;
+  margin: 1em;
+}
+[data-best-picture] li {
+  display: block;
+}
+[data-best-picture] li + li {
+  border-top: 1px solid #ddd;
+  padding-top: 0.5em;
+  margin-top: 0.5em;
+}
+[data-best-picture] a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+[data-best-picture] a:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+[data-best-picture] img {
+  float: left;
+  width: 20%;
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+}
+[data-best-picture] a:hover [data-best-picture] img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+[data-best-picture] div {
+  float: left;
+  width: 80%;
+  padding-left: 0.5em;
+  box-sizing: border-box;
+}
+[data-best-picture] h2 {
+  color: #333;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+[data-best-picture] .winner h2 {
+  font-weight: 700;
+  font-style: italic;
+  color: #C69F24;
+}
+[data-best-picture] p {
+  margin: 0;
+  color: #666;
+  font-family: "Tauri", sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+}
+[data-best-picture] .winner p {
+  color: #888;
+}
+[data-best-picture] p:before {
+  content: 'Directed by: ';
+  font-weight: 400;
+  color: #999;
+  display: none;
+}
+aside {
+  display: none;
+}
+@element '[data-best-picture] p' and (min-width: 220px) {
+  $this:before {
+    display: inline;
+  }
+}
+@element '[data-best-picture] .winner div' and (min-width: 220px) {
+  $this:before {
+    content: 'Best Picture Winner';
+  }
+}
+@element '[data-best-picture]' and (min-width: 400px) {
+  $this h1 {
+    background: none;
+    color: #333;
+    font-size: 1.25em;
+  }
+  $this li {
+    display: inline-block;
+    width: 50%;
+  }
+  $this li + li {
+    border-top: none;
+    padding-top: auto;
+    margin-top: auto;
+    margin-left: -4px;
+  }
+  $this a {
+    overflow: hidden;
+    margin: 0.5em;
+    border: 1px solid #333;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.5);
+  }
+  $this a:after {
+    display: block;
+    content: '';
+    padding-top: 147.5095785%;
+  }
+  $this img {
+    float: none;
+    width: 100%;
+    position: absolute;
+    display: block;
+  }
+  $this a:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  $this div {
+    float: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5em 1em;
+    background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  }
+  $this .winner div {
+    background: -webkit-linear-gradient(270deg, rgba(193, 165, 32, 0.9), rgba(137, 100, 14, 0.9));
+    background: linear-gradient(180deg, rgba(193, 165, 32, 0.9), rgba(137, 100, 14, 0.9));
+    padding: 0.5em 1em 1.5em;
+  }
+  $this .winner div:before {
+    content: '2015 Winner';
+    color: white;
+    font-family: "Tauri", sans-serif;
+    font-size: 0.675em;
+    text-shadow: 0px -1px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.25em;
+    margin: 0 -1em 0.5em;
+  }
+  $this h2 {
+    font-size: 1.125em;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  $this .winner h2 {
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 -1px #89640E;
+  }
+  $this p {
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  $this p:before {
+    color: #aaa;
+  }
+  $this .winner p {
+    color: #312A05;
+    text-shadow: 0 1px rgba(214, 188, 46, 0.4);
+  }
+  [data-best-picture] .winner p:before {
+    color: #413806;
+  }
+}
+@element '[data-best-picture]' and (min-width: 600px) {
+  $this h1 {
+    font-size: 1.75em;
+  }
+  $this ol {
+    margin: 1em;
+  }
+  $this li {
+    width: 33.333%;
+  }
+}
+@element '[data-best-picture]' and (min-width: 900px) {
+  $this h1 {
+    font-size: 2.5em;
+  }
+  $this li {
+    width: 25%;
+  }
+}
+@element 'article' and (min-width: 900px) {
+  $this section,
+  $this aside {
+    float: left;
+  }
+  $this section {
+    width: 75%;
+  }
+  $this aside {
+    display: block;
+    width: 25%
+  }
+}
+    </style>
+
+    
+    
+    
+    
+  <style id="data-eqcss-0-0" data-eqcss-read="true"> [data-eqcss-0-0]:before { display: inline; } </style><style id="data-eqcss-0-1" data-eqcss-read="true"> [data-eqcss-0-1]:before { display: inline; } </style><style id="data-eqcss-0-2" data-eqcss-read="true"> [data-eqcss-0-2]:before { display: inline; } </style><style id="data-eqcss-0-3" data-eqcss-read="true"> [data-eqcss-0-3]:before { display: inline; } </style><style id="data-eqcss-0-4" data-eqcss-read="true"> [data-eqcss-0-4]:before { display: inline; } </style><style id="data-eqcss-0-5" data-eqcss-read="true"> [data-eqcss-0-5]:before { display: inline; } </style><style id="data-eqcss-0-6" data-eqcss-read="true"> [data-eqcss-0-6]:before { display: inline; } </style><style id="data-eqcss-0-7" data-eqcss-read="true"> [data-eqcss-0-7]:before { display: inline; } </style><style id="data-eqcss-0-8" data-eqcss-read="true"> [data-eqcss-0-8]:before { display: inline; } </style><style id="data-eqcss-0-9" data-eqcss-read="true"> [data-eqcss-0-9]:before { display: inline; } </style><style id="data-eqcss-0-10" data-eqcss-read="true"> [data-eqcss-0-10]:before { display: inline; } </style><style id="data-eqcss-0-11" data-eqcss-read="true"> [data-eqcss-0-11]:before { display: inline; } </style><style id="data-eqcss-0-12" data-eqcss-read="true"> [data-eqcss-0-12]:before { display: inline; } </style><style id="data-eqcss-0-13" data-eqcss-read="true"> [data-eqcss-0-13]:before { display: inline; } </style><style id="data-eqcss-0-14" data-eqcss-read="true"> [data-eqcss-0-14]:before { display: inline; } </style><style id="data-eqcss-0-15" data-eqcss-read="true"> [data-eqcss-0-15]:before { display: inline; } </style><style id="data-eqcss-0-16" data-eqcss-read="true"> [data-eqcss-0-16]:before { display: inline; } </style><style id="data-eqcss-0-17" data-eqcss-read="true"> [data-eqcss-0-17]:before { display: inline; } </style><style id="data-eqcss-0-18" data-eqcss-read="true"> [data-eqcss-0-18]:before { display: inline; } </style><style id="data-eqcss-0-19" data-eqcss-read="true"> [data-eqcss-0-19]:before { display: inline; } </style><style id="data-eqcss-0-20" data-eqcss-read="true"> [data-eqcss-0-20]:before { display: inline; } </style><style id="data-eqcss-0-21" data-eqcss-read="true"> [data-eqcss-0-21]:before { display: inline; } </style><style id="data-eqcss-0-22" data-eqcss-read="true"> [data-eqcss-0-22]:before { display: inline; } </style><style id="data-eqcss-0-23" data-eqcss-read="true"> [data-eqcss-0-23]:before { display: inline; } </style><style id="data-eqcss-0-24" data-eqcss-read="true"> [data-eqcss-0-24]:before { display: inline; } </style><style id="data-eqcss-0-25" data-eqcss-read="true"> [data-eqcss-0-25]:before { display: inline; } </style><style id="data-eqcss-0-26" data-eqcss-read="true"> [data-eqcss-0-26]:before { display: inline; } </style><style id="data-eqcss-0-27" data-eqcss-read="true"> [data-eqcss-0-27]:before { display: inline; } </style><style id="data-eqcss-0-28" data-eqcss-read="true"> [data-eqcss-0-28]:before { display: inline; } </style><style id="data-eqcss-0-29" data-eqcss-read="true"> [data-eqcss-0-29]:before { display: inline; } </style><style id="data-eqcss-0-30" data-eqcss-read="true"> [data-eqcss-0-30]:before { display: inline; } </style><style id="data-eqcss-0-31" data-eqcss-read="true"> [data-eqcss-0-31]:before { display: inline; } </style><style id="data-eqcss-0-32" data-eqcss-read="true"> [data-eqcss-0-32]:before { display: inline; } </style><style id="data-eqcss-0-33" data-eqcss-read="true"> [data-eqcss-0-33]:before { display: inline; } </style><style id="data-eqcss-0-34" data-eqcss-read="true"> [data-eqcss-0-34]:before { display: inline; } </style><style id="data-eqcss-0-35" data-eqcss-read="true"> [data-eqcss-0-35]:before { display: inline; } </style><style id="data-eqcss-2-0" data-eqcss-read="true"> [data-eqcss-2-0] h1 { background: none; color: #333; font-size: 1.25em; } [data-eqcss-2-0] li { display: inline-block; width: 50%; } [data-eqcss-2-0] li + li { border-top: none; padding-top: auto; margin-top: auto; margin-left: -4px; } [data-eqcss-2-0] a { overflow: hidden; margin: 0.5em; border: 1px solid #333; box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.5); } [data-eqcss-2-0] a:after { display: block; content: ''; padding-top: 147.5095785%; } [data-eqcss-2-0] img { float: none; width: 100%; position: absolute; display: block; } [data-eqcss-2-0] a:hover img { -webkit-transform: scale(1.1); transform: scale(1.1); } [data-eqcss-2-0] div { float: none; width: 100%; position: absolute; bottom: 0; padding: 1.5em 1em; background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)); background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)); } [data-eqcss-2-0] .winner div { background: -webkit-linear-gradient(270deg, rgba(193, 165, 32, 0.9), rgba(137, 100, 14, 0.9)); background: linear-gradient(180deg, rgba(193, 165, 32, 0.9), rgba(137, 100, 14, 0.9)); padding: 0.5em 1em 1.5em; } [data-eqcss-2-0] .winner div:before { content: '2015 Winner'; color: white; font-family: "Tauri", sans-serif; font-size: 0.675em; text-shadow: 0px -1px rgba(0, 0, 0, 0.3); text-transform: uppercase; display: block; text-align: center; letter-spacing: 0.25em; margin: 0 -1em 0.5em; } [data-eqcss-2-0] h2 { font-size: 1.125em; color: white; text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); } [data-eqcss-2-0] .winner h2 { font-weight: 700; color: white; text-shadow: 0 -1px #89640E; } [data-eqcss-2-0] p { color: white; text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); } [data-eqcss-2-0] p:before { color: #aaa; } [data-eqcss-2-0] .winner p { color: #312A05; text-shadow: 0 1px rgba(214, 188, 46, 0.4); } [data-best-picture] .winner p:before { color: #413806; } </style><style id="data-eqcss-3-0" data-eqcss-read="true"> [data-eqcss-3-0] h1 { font-size: 1.75em; } [data-eqcss-3-0] ol { margin: 1em; } [data-eqcss-3-0] li { width: 33.333%; } </style><style id="data-eqcss-4-0" data-eqcss-read="true"> [data-eqcss-4-0] h1 { font-size: 2.5em; } [data-eqcss-4-0] li { width: 25%; } </style></head>
+
+  <body translate="no" data-eqcss-2-0-parent="" data-eqcss-3-0-parent="" data-eqcss-4-0-parent="">
+
+    
+
+	
+    
+		<title data-eqcss-2-0-prev="" data-eqcss-3-0-prev="" data-eqcss-4-0-prev="">
+		</title>
+	
+	
+		<section data-best-picture="" data-eqcss-2-0="" data-eqcss-3-0="" data-eqcss-4-0="">
+			<h1>
+				<br><br>
+			</h1>
+
+			<ol>
+        
+				<li>
+					<a href="https://res.cloudinary.com/vaukcit/video/upload/v1575222200/videoplayback_k4uqa6.mp4"><img src="https://res.cloudinary.com/vaukcit/video/upload/v1575222200/videoplayback_k4uqa6.jpg" alt="SARA FACCIOLO">
+					<div data-eqcss-0-0-parent="">
+						<h2 data-eqcss-0-0-prev="">
+							SARA FACCIOLO
+						</h2>
+
+						<p data-eqcss-0-0="">
+						</p>
+					</div></a>
+				</li>
+
+				<li>
+					<a href="https://res.cloudinary.com/vaukcit/video/upload/v1574309027/Michael_Kiwanuka_-_Cold_Little_Heart_Live_on_The_Current__480_arwx5m.mp4"><img src="https://res.cloudinary.com/vaukcit/video/upload/v1574309027/Michael_Kiwanuka_-_Cold_Little_Heart_Live_on_The_Current__480_arwx5m.jpg" alt="MICHAEL KIWANUKA">
+					<div data-eqcss-0-1-parent="">
+						<h2 data-eqcss-0-1-prev="">
+							MICHAEL KIWANUKA
+						</h2>
+
+						<p data-eqcss-0-1="">
+						</p>
+					</div></a>
+				</li>
+
+				<li>
+					<a href="https://drive.google.com/file/d/1DAeGfcSqUKzrr274_e8x7RSvo5aD7UiW/preview"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnu15GKt5wX4k_wDwagTRGFAwQjyVAgr4M4NV1yHzsEj_FQbK4&s" alt="DANIELE GOZZETTI">
+					<div data-eqcss-0-1-parent="">
+						<h2 data-eqcss-0-1-prev="">
+						    DANIELE GOZZETTI
+						</h2>
+
+						<p data-eqcss-0-1="">
+						</p>
+					</div></a>
+				</li>
+
+
+				
+
+
+			</ol>
+		</section><script language="JavaScript" data-eqcss-2-0-next="" data-eqcss-3-0-next="" data-eqcss-4-0-next="">
+    <!--
+//Disable right mouse click Script
+//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
+//For full source code, visit https://www.dynamicdrive.com
+var message="Function Disabled!";
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false")
+// --> 
+</script>
